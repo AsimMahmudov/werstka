@@ -1,0 +1,56 @@
+.header {
+  position: relative;
+  //   background: #5351512f;
+  border: solid 1px rgb(198, 207, 206);
+  padding-block: 20px;
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav {
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 33px;
+      li {
+        a {
+          color: rgb(161, 161, 161);
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .buutons {
+    display: flex;
+    gap: 5px;
+
+    button {
+      width: 150px;
+      height: 40px;
+      border-radius: 20px;
+      border: solid 2px black;
+      cursor: pointer;
+      transition: 0.4s;
+    }
+  }
+
+  .bur {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: solid 2px black;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+}
